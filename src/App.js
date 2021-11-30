@@ -35,7 +35,7 @@ export default class App extends Component {
     // Update database
     update(book, toShelf)
       .then(res => {
-        console.log(res);
+        console.log("UPDATE:",res);
       });
 
     //  update shelf of the changed book or add the book if it was a new one.
